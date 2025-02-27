@@ -1,0 +1,45 @@
+.advertisement
+{
+	position:absolute;
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:black;
+	float:left;
+	top: 5px;
+
+}
+
+
+.header{
+	display: flex;
+	align-items: center;
+	margin-left: 200px;
+
+}
+.logo {
+		margin-right: 15px;
+}
+
+.content {
+    width: 70%;
+    margin-left: 200px;
+}
+
+.image {
+    width: 250px; 
+    float: left; 
+    margin-right: 15px; 
+
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.head {
+	text-align: center;
+}
