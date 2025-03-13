@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Formlar </title>
+</head>
+<body>
+    <form action="Activity6-preview.php" method="POST">
+        <h2>Registration Form</h2>
+        <table cellpadding="8">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" autofocus></td>
+            </tr>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="uname"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="pass"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td>
+                    <select name="country">
+                        <option value="Country-Turkey">Turkey</option>
+                        <option value="Country-Germany">Germany</option>
+                        <option value="Country-US">US</option>
+                        <option value="Country-Italy">Italy</option>
+                        <option value="Country-Switzerland">Switzerland</option>
+                        <option value="Country-Scotland">Scotland</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>ZIP Code:</td>
+                <td><input type="text" name="zipcode"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Sex:</td>
+                <td>
+                    <input type="radio" name="sex" value="female"> Female
+                    <input type="radio" name="sex" value="male"> Male
+                </td>
+            </tr>
+            <tr>
+                <td>Language:</td>
+                <td>
+                    <input type="checkbox" name="Language[]" value="English"> English
+                    <input type="checkbox" name="Language[]" value="French"> French
+                    <input type="checkbox" name="Language[]" value="Germany"> Germany
+                </td>
+            </tr>
+            <tr>
+                <td>About:</td>
+                <td>
+                    <textarea rows="3" cols="30" name="comment" maxlength="250" minlength="20"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
