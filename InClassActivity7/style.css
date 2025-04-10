@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#gameButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    position: relative;
+    transition: 0.2s;
+}
+
+#level {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#score {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
