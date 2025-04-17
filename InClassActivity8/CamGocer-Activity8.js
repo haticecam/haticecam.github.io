@@ -37,6 +37,7 @@ function displayResults()
 }
 
 function addScore(){
+	document.getElementById("results").innerHTML = "";
 	var name = $("name").value.trim();
     var score = parseInt($("score").value, 10);
 
