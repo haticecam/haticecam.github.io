@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  background-color: white;
+}
+
+form {
+  width: 500px;
+}
+
+form label {
+  display: inline-block;
+  width: 220px;
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+
+form input {
+  display: inline-block;
+  width: 250px;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+form button {
+  margin-left: 220px;
+  padding: 5px 10px;
+}
+
