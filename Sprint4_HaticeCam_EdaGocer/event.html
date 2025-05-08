@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Orenda Yönetim ve İletişim Topluluğu</title>
+        <link rel="stylesheet" href="style.css">
+
+      <script src="jquery/jquery-3.6.0.min.js"></script>
+      <script src="jquery/jquery-ui.min.js"></script>
+      <link rel="stylesheet" href="jquery/jquery-ui.min.css">
+    <script src="event.js"></script>
+    <script src="layout.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <nav>   
+     <div class="nav-bar">
+
+    <div class="logo">
+        <span class="bigtext">ORENDA</span>
+        <span class="smalltext">Yönetim ve İletişim Topluluğu</span>
+    </div>
+        <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li class="dropdown">
+                <a href="about.html">Hakkımızda</a></li>
+            <li><a href="event.html">Etkinlikler</a></li>
+            <li><a href="gallery.html">Galeri</a></li>
+            <li><a href="announcement.html">Duyurular</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <div class="events-container">
+        <br>
+        <h2>Etkinlikler</h2>
+
+        <ul class="events-list">
+            <li class="event-item" data-event="event1">Etkinlik 1: İlk Toplantı</li>
+            <li class="event-item" data-event="event2">Etkinlik 2: Çalıştay</li>
+            <li class="event-item" data-event="event3">Etkinlik 3: Seminer</li>
+        </ul>
+
+        <div id="event-info">
+            <p>kmfsm</p>
+        </div>
+    </div>
+
+      <div id="event1-info" class="event-info-content" style="display:none;">
+        <h3>Etkinlik 1: İlk Toplantı</h3>
+        <p>Bu etkinlik, topluluğumuzun ilk buluşması olacak. Katılımınızı bekliyoruz! Lütfen aşağıdaki katılım formunu doldurmayı unutma.</p>
+        <div class="google-form-widget">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSIaXqUh8e_1fiOyX2g0q-Z9fFwuBOKCcR8EQR3cFIhO_zSg/viewform?usp=header" target="_blank">
+                <button type="button" id="googleFormButton">Katılım formu</button>
+            </a>
+        </div>
+    </div>
+
+    <div id="event2-info" class="event-info-content" style="display:none;">
+        <h3>Etkinlik 2: Çalıştay</h3>
+        <p>Bu çalıştay, yeni beceriler kazanmanıza yardımcı olacak. Lütfen aşağıdaki katılım formunu doldurmayı unutma.</p>
+        <div class="google-form-widget">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSIaXqUh8e_1fiOyX2g0q-Z9fFwuBOKCcR8EQR3cFIhO_zSg/viewform?usp=header" target="_blank">
+                <button type="button" id="googleFormButton">Katılım formu</button>
+            </a>
+        </div>
+    </div>
+
+    <div id="event3-info" class="event-info-content" style="display:none;">
+        <h3>Etkinlik 3: Seminer</h3>
+        <p>Bu seminerde sektör uzmanlarıyla bir araya geleceğiz. Katılımınızı bekliyoruz! Lütfen aşağıdaki katılım formunu doldurmayı unutma.</p>
+        <div class="google-form-widget">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSIaXqUh8e_1fiOyX2g0q-Z9fFwuBOKCcR8EQR3cFIhO_zSg/viewform?usp=header" target="_blank">
+                <button type="button" id="googleFormButton">Katılım formu</button>
+            </a>
+        </div>
+    </div>
+
+<footer class="footer">
+  <p>© 2025 Orenda Topluluğu | Tüm hakları saklıdır.</p>
+  <p>Bizi takip edin:</p>
+  <div class="social-footer">
+    <a href="https://instagram.com/orendaybu" title="Instagram" target="_blank">
+      <i class="fab fa-instagram social-icon"></i>
+    </a>
+    <a href="mailto:orendaybu@gmail.com" title="Mail" target="_blank">
+      <i class="fas fa-envelope social-icon"></i>
+    </a>
+    <a href="https://www.linkedin.com/company/orendaybu/" title="LinkedIn" target="_blank">
+      <i class="fab fa-linkedin social-icon"></i>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>

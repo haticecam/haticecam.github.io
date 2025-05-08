@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Orenda Yönetim ve İletişim Topluluğu</title>
+        <link rel="stylesheet" href="style.css">
+
+      <script src="jquery/jquery-3.6.0.min.js"></script>
+      <script src="jquery/jquery-ui.min.js"></script>
+      <link rel="stylesheet" href="jquery/jquery-ui.min.css">
+      <script src="contact.js"></script>
+     <script src="layout.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <nav>   
+     <div class="nav-bar">
+
+    <div class="logo">
+        <span class="bigtext">ORENDA</span>
+        <span class="smalltext">Yönetim ve İletişim Topluluğu</span>
+    </div>
+        <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li class="dropdown">
+                <a href="about.html">Hakkımızda</a></li>
+            <li><a href="event.html">Etkinlikler</a></li>
+            <li><a href="gallery.html">Galeri</a></li>
+            <li><a href="announcement.html">Duyurular</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <div class="contact">
+        <h2>İletişim</h2>
+        <form class="contact-form">
+            <label for="name">Ad-Soyad:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button id="myButton" type="submit">Gönder</button>
+        </form>
+    </div>
+
+    <div id="thankYouDialog" title="Teşekkürler!" style="display:none;">
+  <p>Mesajınızı aldık. En kısa sürede geri dönüş sağlayacağız.</p>
+    </div>
+
+<footer class="footer">
+  <p>© 2025 Orenda Topluluğu | Tüm hakları saklıdır.</p>
+  <p>Bizi takip edin:</p>
+  <div class="social-footer">
+    <a href="https://instagram.com/orendaybu" title="Instagram" target="_blank">
+      <i class="fab fa-instagram social-icon"></i>
+    </a>
+    <a href="mailto:orendaybu@gmail.com" title="Mail" target="_blank">
+      <i class="fas fa-envelope social-icon"></i>
+    </a>
+    <a href="https://www.linkedin.com/company/orendaybu/" title="LinkedIn" target="_blank">
+      <i class="fab fa-linkedin social-icon"></i>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
